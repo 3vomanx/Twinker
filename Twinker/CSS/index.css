@@ -1,0 +1,142 @@
+    body {
+        background: rgb(103, 53, 222);
+        background: linear-gradient(90deg, rgba(103, 53, 222, 1) 43%, rgba(114, 55, 208, 1) 49%, rgba(129, 61, 223, 1) 57%);
+        overflow: hidden;
+    }
+    
+    #mainpg_content {
+        margin-top: 13vh;
+        user-select: none;
+    }
+    
+    .welcome {
+        width: 50%;
+        height: 10vh;
+        color: #F3AA20;
+        text-align: center;
+        margin: 3vh 3vh 5vh 50vh;
+        line-height: 1.4;
+        font-style: normal;
+        font-family: Open Sans, Calibri, Candara, Arial, sans-serif;
+        font-size: 28px;
+    }
+    
+    .welcomepageicons {
+        width: 45%;
+        height: auto;
+        margin-top: 10vh;
+        margin-left: 27.5%;
+        margin-right: 27.5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #F3AA20;
+    }
+    
+    .welcomepageicons img {
+        width: 40%;
+        height: auto;
+    }
+    
+    .iconbox {
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    .iconbox img {
+        cursor: pointer;
+        user-select: none;
+    }
+    
+    .iconbox p {
+        font-size: 26px;
+        font-weight: bold;
+    }
+    
+    .startbutton {
+        width: 80%;
+        height: 10vh;
+        margin-top: 12vh;
+        margin-left: 10%;
+        margin-right: 10%;
+        cursor: pointer;
+        font-size: 2em;
+        letter-spacing: 0.9vh;
+        align-items: center;
+        text-align: center;
+        background-color: #0e1538;
+        color: white;
+        border: none;
+    }
+    /* SECOND PAGE SECOND PAGE SECOND PAGE SECOND PAGE SECOND PAGE SECOND PAGE */
+    
+    .select_container {
+        width: 30%;
+        height: 60vh;
+        background-color: white;
+        margin: 20vh 0 0 65vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0px 0px 35px 10px rgba(0, 0, 0, 0.35);
+        border-radius: 25px;
+    }
+    
+    .select_title {
+        text-align: center;
+        width: 100%;
+        height: 10vh;
+        background-color: orange;
+        color: rgb(103, 53, 222);
+        color: linear-gradient(90deg, rgba(103, 53, 222, 1) 43%, rgba(114, 55, 208, 1) 49%, rgba(129, 61, 223, 1) 57%);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        letter-spacing: 0.5vh;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+    
+    #username {
+        font-size: 17px;
+        box-sizing: border-box;
+    }
+    
+    #gs_button {
+        font-size: 18px;
+        height: 6vh;
+        border: 0;
+        outline: 0;
+        border-radius: 20px;
+        background-color: #260c40;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .select_inputs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 70vh;
+    }
+    
+    .select_inputs input,
+    select,
+    button {
+        width: 78%;
+        height: 6vh;
+        border: 1.5px solid rgb(187, 0, 221);
+        padding-left: 2%;
+        font-size: 14px;
+        outline: 0;
+    }
+    
+    .select_inputs select {
+        cursor: pointer;
+    }

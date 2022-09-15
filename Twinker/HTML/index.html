@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twinker.ge - გაიცანი ახალი ადამიანები</title>
+    <script src="../JS/landingpage.js"></script>
+    <link rel="stylesheet" href="../CSS/index.css">
+</head>
+
+<body>
+    <div id="mainpg_content">
+        <div class=welcome>
+            <h1> მოგესალმებათ Twinker.Ge!</h1>
+        </div>
+        <div class="welcomepageicons">
+            <div class=iconbox>
+                <img src="../IMG/img1.png">
+                <p class="meet">გაიცანი ახალი ადამიანები</p>
+            </div>
+            <div class=iconbox>
+                <img src="../IMG/img2.png">
+                <p class="anonym">ანონიმურობა დაცულია</p>
+            </div>
+        </div>
+        <div>
+            <button class="startbutton" onclick="hideDialog()">საუბრის დაწყება</button>
+        </div>
+    </div>
+
+    <!-- GENDER SELECTION PAGE GENDER SELECTION PAGE GENDER SELECTION PAGE GENDER SELECTION PAGE -->
+
+    <div id="secondpg_content">
+
+        <div class="select_container">
+            <div class="select_title">
+                <h1>Twinker.Ge</h1>
+            </div>
+            <div class="select_inputs">
+                <input type="text" name="" placeholder="თქვენი სახელი" id="username">
+                <select name="" id="user_gender">
+                        <option value="" selected disabled>თქვენი სქესი</option>
+                        <option value="1">მამრობითი</option>
+                        <option value="2">მდედრობითი</option>
+                    </select>
+                <select name="" id="partner_gender">
+                        <option value="" selected disabled>მოსაუბრის სქესი</option>
+                        <option value="1">მამრობითი</option>
+                        <option value="2">მდედრობითი</option>
+                        <option value="3">ყველა</option>
+                    </select>
+                <button id="gs_button">დაიწყეთ საუბარი</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
